@@ -3,13 +3,16 @@ import React from 'react';
 import { css } from '@emotion/react';
 import Title from './Title';
 
+const gradientCard = 'linear-gradient( to bottom,rgba(105,67,255,1)  0%,rgba(49,45,233,1) 100% )';
+const gradientCircle = 'linear-gradient( to bottom,rgba(77,33,201,1)  0%,rgba(37,33,201,0) 100% )';
+
 const cardStyle = css`
-  background-color: #6943FF;
+  background: ${gradientCard};
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 32px;
-    height: 512px;
+  height: 512px;
   width: 368px;
 `;
 
@@ -23,6 +26,7 @@ const grade = css`
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  background: ${gradientCircle};
 `;
 
 const note = (theme) => css`
@@ -36,6 +40,28 @@ const total = (theme) => css`
   opacity: 0.5;
 `;
 
+const status = (theme) => css`
+  color: ${theme.colors.white};
+  font-size: 32px;
+  line-height: 40px;
+`;
+
+const containerStatus = css`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 260px;
+`;
+
+const statusSubText = (theme) => css`
+  color: ${theme.colors.lightBlue};
+  opacity: 0.5;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+`;
+
 const Card = () => {
   return (
     <div css={cardStyle}>
@@ -46,14 +72,10 @@ const Card = () => {
         <div css={note}>76</div>
         <div css={total}>of 100</div>
       </div>
-        Great
-      You scored higher than 65% of the people who have taken these tests.
-      Summary
-      Reaction 80 / 100
-      Memory 92 / 100
-      Verbal 61 / 100
-      Visual 72 / 100
-      Continue
+      <div css={containerStatus}>
+        <div css={status}>Great</div>
+        <div css={statusSubText}>You scored higher than 65% of the people who have taken these tests.</div>
+      </div>
     </div>
   );
 };
