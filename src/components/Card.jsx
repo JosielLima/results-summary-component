@@ -10,16 +10,18 @@ const cardStyle = css`
   background: ${gradientCard};
   display: flex;
   flex-direction: column;
-  gap 28px;
+  gap: 28px;
   justify-content: space-between;
   align-items: center;
   border-radius: 32px;
   width: 368px;
-  padding: 0px 38px 40px 40px;
-  @media (max-width: 375px) {
+  padding: 38px 38px 40px 40px;
+  @media (max-width: 650px) {
     width: 375px;
     gap 24px;
-    padding: 0px 38px 40px 40px;
+    width: 100%;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
   }
 `;
 
@@ -34,7 +36,7 @@ const grade = css`
   height: 200px;
   border-radius: 50%;
   background: ${gradientCircle};
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     width: 140px;
     height: 140px;
   }
@@ -44,7 +46,7 @@ const note = (theme) => css`
   color: ${theme.colors.white};
   font-size: 72px;
   font-weight: bold;
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     font-size: 3em;
   }
 `;
@@ -53,7 +55,7 @@ const total = (theme) => css`
   color: ${theme.colors.white};
   font-size:  ${theme.typographySize.body};
   opacity: 0.5;
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     font-size: 0.8em;
   }
 `;
@@ -62,7 +64,7 @@ const status = (theme) => css`
   color: ${theme.colors.white};
   font-size: 32px;
   line-height: 40px;
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
     font-size: 1.7em;
   }
 `;
@@ -81,7 +83,7 @@ const statusSubText = (theme) => css`
   font-size:  ${theme.typographySize.body};
   line-height: 24px;
   text-align: center;
-   @media (max-width: 375px) {
+   @media (max-width: 650px) {
     font-size: 1em;
   }
 `;

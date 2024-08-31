@@ -7,7 +7,8 @@ const Title = styled.h6`
   font-size: 24px;
   line-height: 0;
   height: 0;
-  @media (max-width: 375px) {
+  margin: 0;
+  @media (max-width: 650px) {
    font-size: 1.3em;
   }
 `

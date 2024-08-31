@@ -11,17 +11,22 @@ const container = (theme) => css`
   flex: 1;
   width: 100%;
   height: 100vh;
+  @media (max-width: 650px) {
+    align-items: flex-start;
+  }
 `;
 
 const content = (theme) => css`
   background: ${theme.colors.white};
   max-width:736px;
+  min-height: 512px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   border-radius: 32px;
   box-shadow: 10px 0px 30px rgba(61, 108, 236, 0.1);
-  @media (max-width: 375px) {
+  @media (max-width: 650px) {
      grid-template-columns: 1fr;
+     width: 100%;
   }
 `;
 
@@ -31,8 +36,7 @@ const details = (theme) => css`
   flex-direction: column;
   justify-content: space-between;
   gap: 28px;
-  padding: 0px 38px 40px 40px;
-  border-radius-top-right: 32px;
+  padding: 38px 38px 40px 40px;
   border-radius: 32px;
 `;
 
