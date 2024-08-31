@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Projeto de Estudo: Frontend Mentor com Emotion CSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma implementação do desafio Results summary component do Frontend Mentor, utilizado como uma oportunidade para explorar e praticar o uso do Emotion CSS.
 
-## Available Scripts
+## Sobre o Projeto
 
-In the project directory, you can run:
+O objetivo principal deste projeto foi aprofundar o conhecimento em estilização de componentes React utilizando a biblioteca Emotion CSS. O desafio do Frontend Mentor serviu como base para a estrutura e design, enquanto o foco principal estava na implementação e experimentação com as capacidades do Emotion CSS.
 
-### `npm start`
+### Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Emotion CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Aprendizados
 
-### `npm test`
+- Implementação de estilos com Emotion CSS
+- Criação de componentes estilizados
+- Gerenciamento de temas e estilos globais
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar
 
-### `npm run build`
+[instalar dependências e rodar o projeto]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+yarn install
+yarn start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Study Project: Frontend Mentor with Emotion CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is an implementation of the Frontend Mentor Results summary component challenge, used as an opportunity to explore and practice using Emotion CSS.
 
-### `npm run eject`
+## About the Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The main goal of this project was to deepen the knowledge in styling React components using the Emotion CSS library. The Frontend Mentor challenge served as a basis for structure and design, while the primary focus was on implementing and experimenting with Emotion CSS capabilities.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React
+- Emotion CSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Learnings
 
-## Learn More
+- Implementation of styles with Emotion CSS
+- Creation of styled components
+- Management of themes and global styles
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How to Run
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+yarn install
+yarn start
