@@ -10,10 +10,12 @@ const cardStyle = css`
   background: ${gradientCard};
   display: flex;
   flex-direction: column;
+  gap 28px;
+  justify-content: space-between;
   align-items: center;
   border-radius: 32px;
-  height: 512px;
   width: 368px;
+  padding: 0px 38px 40px 40px;
 `;
 
 const grade = css`
@@ -56,7 +58,7 @@ const containerStatus = css`
 
 const statusSubText = (theme) => css`
   color: ${theme.colors.lightBlue};
-  opacity: 0.5;
+  opacity: 0.9;
   font-size: 18px;
   line-height: 24px;
   text-align: center;

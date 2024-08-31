@@ -1,17 +1,7 @@
-import './App.css';
-import Card from './components/Card'
 import theme from './theme'
 import { Global, css } from '@emotion/react'
 import { ThemeProvider } from '@emotion/react';
-
-const container = (theme) => css`
-  background: ${theme.colors.white};
-  width:736px;
-  display: grid;
-  template-columns: 1fr 1fr;
-  border-radius: 32px;
-  border: 1px solid red;
-`;
+import Main from './pages/Main'
 
 function App() {
   return (
@@ -33,17 +23,7 @@ function App() {
               }
           `}
         />
-        <section css={container}>
-          <Card/>
-          <div>
-                Summary
-            Reaction 80 / 100
-            Memory 92 / 100
-            Verbal 61 / 100
-            Visual 72 / 100
-            Continue
-          </div>
-        </section>
+        <Main />
       </div>
     </ThemeProvider>
   );
