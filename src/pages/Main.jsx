@@ -50,6 +50,7 @@ const btn = (theme) => css`
   font-weight: 500;
   width: 100%;
   height: 56px;
+  font-size: ${theme.typographySize.body};
   cursor: pointer;
   &:hover {
      background: ${theme.colors.gradientPrimary};

@@ -51,7 +51,7 @@ const note = (theme) => css`
 
 const total = (theme) => css`
   color: ${theme.colors.white};
-  font-size:  ${theme.TypographySize.body};
+  font-size:  ${theme.typographySize.body};
   opacity: 0.5;
   @media (max-width: 375px) {
     font-size: 0.8em;
@@ -78,7 +78,7 @@ const containerStatus = css`
 const statusSubText = (theme) => css`
   color: ${theme.colors.lightBlue};
   opacity: 0.9;
-  font-size:  ${theme.TypographySize.body};
+  font-size:  ${theme.typographySize.body};
   line-height: 24px;
   text-align: center;
    @media (max-width: 375px) {

@@ -27,7 +27,7 @@ const boxType =  (theme) => css`
   flex-direction: row;
   align-items: center;
   gap: 12px;
-  font-size: ${theme.TypographySize.body};
+  font-size: ${theme.typographySize.body};
 `
 
 const resultDetailStyle = (type, opacity) => css`
@@ -37,6 +37,7 @@ const resultDetailStyle = (type, opacity) => css`
   align-items: center;
   padding: 10px;
   border-radius: 12px;
+  height: 56px;
   background-color: ${getBackgroundColor(type, opacity)};
 `
 
