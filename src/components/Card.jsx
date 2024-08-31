@@ -16,6 +16,11 @@ const cardStyle = css`
   border-radius: 32px;
   width: 368px;
   padding: 0px 38px 40px 40px;
+  @media (max-width: 375px) {
+    width: 375px;
+    gap 24px;
+    padding: 0px 38px 40px 40px;
+  }
 `;
 
 const grade = css`
@@ -29,23 +34,37 @@ const grade = css`
   height: 200px;
   border-radius: 50%;
   background: ${gradientCircle};
+  @media (max-width: 375px) {
+    width: 140px;
+    height: 140px;
+  }
 `;
 
 const note = (theme) => css`
   color: ${theme.colors.white};
   font-size: 72px;
   font-weight: bold;
+  @media (max-width: 375px) {
+    font-size: 3em;
+  }
 `;
 
 const total = (theme) => css`
   color: ${theme.colors.white};
+  font-size:  ${theme.TypographySize.body};
   opacity: 0.5;
+  @media (max-width: 375px) {
+    font-size: 0.8em;
+  }
 `;
 
 const status = (theme) => css`
   color: ${theme.colors.white};
   font-size: 32px;
   line-height: 40px;
+  @media (max-width: 375px) {
+    font-size: 1.7em;
+  }
 `;
 
 const containerStatus = css`
@@ -59,9 +78,12 @@ const containerStatus = css`
 const statusSubText = (theme) => css`
   color: ${theme.colors.lightBlue};
   opacity: 0.9;
-  font-size: 18px;
+  font-size:  ${theme.TypographySize.body};
   line-height: 24px;
   text-align: center;
+   @media (max-width: 375px) {
+    font-size: 1em;
+  }
 `;
 
 const Card = () => {

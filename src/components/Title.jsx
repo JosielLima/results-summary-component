@@ -6,6 +6,9 @@ const Title = styled.h6`
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
+  @media (max-width: 375px) {
+   font-size: 1.3em;
+  }
 `
 
 export default Title
